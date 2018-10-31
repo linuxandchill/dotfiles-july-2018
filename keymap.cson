@@ -1,0 +1,18 @@
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+
+# all
+# -------------------------
+'atom-text-editor.vim-mode-plus':
+  'escape': 'vim-mode-plus:reset-normal-mode'
+  'ctrl-c': 'vim-mode-plus:reset-normal-mode'
+  'ctrl-[': 'vim-mode-plus:reset-normal-mode'
+  'i i': 'vim-mode-plus:reset-normal-mode'
+
+# all except normal
+# -------------------------
+'atom-text-editor.vim-mode-plus:not(.normal-mode)':
+  'escape': 'vim-mode-plus:activate-normal-mode'
+  'ctrl-[': 'vim-mode-plus:activate-normal-mode'
+  'i i':'vim-mode-plus:reset-normal-mode'
