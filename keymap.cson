@@ -1,6 +1,14 @@
 'body':
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-n' : 'window:focus-next-pane'
+  'ctrl-p' : 'window:focus-previous-pane'
+
+
+'atom-text-editor.platform-darwin .tree-view':
+  'ctrl-l' : 'tree-view:open-selected-entry-left'
+  'ctrl-r' : 'tree-view:open-selected-entry-right'
+
 
 # all
 # -------------------------
